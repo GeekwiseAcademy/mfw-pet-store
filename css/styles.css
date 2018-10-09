@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.logo {
+  width: 85px;
+}
+ header h1 {
+   color: #c9c983; /*Pet Store color od words in logo*/
+   font-family: 'Satisfy', cursive;
+ }
+ .nav-pills>li.active>a {
+   color: #5c433f;
+   background-color: #eeddcd;
+   border: 1px solid #5c433f;
+ }
+.jumbotron {
+  background-image: url('../img/hero.jpg'); /*.. added to navigate back out of css folder and go to img folder */
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+.jumbotron h2 {
+  font-weight: 300;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+.featured {
+margin-bottom: 60px;
+}
