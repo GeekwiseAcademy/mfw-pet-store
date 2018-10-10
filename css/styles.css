@@ -39,3 +39,20 @@ li a {
 .featured {
   margin-bottom: 60px;
 }
+
+.product {
+  padding-top:20px;
+  padding-bottom: 10px;
+  background-color: #eeddcd;
+  border: 5px solid white;
+  border-radius: 20px;
+}
+
+.nav-pills>li>a.service {
+  background-color: #eeddcd;
+}
+
+footer {
+  padding-top: 30px;
+  background-color: #eeddcd;
+}
