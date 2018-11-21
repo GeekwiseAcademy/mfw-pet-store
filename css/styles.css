@@ -1,0 +1,11 @@
+.logo {
+  height: 75px;
+}
+
+.jumbotron {
+  background-image: url('../img/hero.jpg');
+  color: #fff;
+  background-size: cover;
+  height: 500px;
+  background-position: center center;
+}
