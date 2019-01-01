@@ -1,3 +1,5 @@
+/* Home Page */
+
 .logo {
   height: 75px;
 }
@@ -72,6 +74,12 @@ nav {
   background-color: rgb(252, 252, 252);
   border: 1px solid #5c433f;
 }
+
+.adopt {
+  border: 1px solid black;
+}
+
+/* Footer */
 
 aside a, footer {
   background-color: #eeddcd;
