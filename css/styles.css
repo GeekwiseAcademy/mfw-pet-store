@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Satisfy');
+
 /* Home Page */
 
 .logo {
   height: 75px;
 }
 
-header h1 {
+h1 {
   color: #c9c983;
   font-family: 'Satisfy';
   margin-top: 20px;
@@ -26,10 +28,9 @@ nav li {
   font-size: 15px;
 }
 
-li a, {
+li a {
   border: 1px solid #5c433f;
   color: #5c433f;
-  font-family: 'Open Sans';
   font-weight: 400;
 }
 
