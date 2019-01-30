@@ -58,9 +58,15 @@ nav li{
   background-color: #eeddcd;
 }
 
+.footer{
+  height: 100px;
+  background-color: #eeddcd;
+  margin-top: 55px;
+}
 
-.logo_bottom{
 
+.down{
+  margin-top: 10px;
 }
 
 .doggy{
@@ -71,14 +77,8 @@ nav li{
   border-left: 1px solid black;
 }
 
-.icon{
+/* need help fixing this */
+/* .icon{
   float: left;
   color: #5c433f;
-}
-
-.footer{
-  height: 100px;
-  background-color: #eeddcd;
-  margin-top: 55px;
-
-}
+} */
