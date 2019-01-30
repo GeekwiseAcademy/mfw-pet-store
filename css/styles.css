@@ -40,6 +40,20 @@ nav li{
   border-top: 12px solid #eeddcd;
 }
 
+.bow_wow{
+  border-right: 5px white solid;
+}
+
+.meow{
+  border-left: 5px white solid;
+  border-right: 5px white solid;
+}
+
+.birdy{
+  border-left: 5px white solid;
+  margin-top: auto;
+}
+
 .logo_bottom{
 
 }
