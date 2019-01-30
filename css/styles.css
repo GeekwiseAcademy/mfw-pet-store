@@ -34,10 +34,28 @@ nav li{
 
 }
 
+.logo_bottom{
+  margin-top: 20px;
+}
+
+.doggy{
+  border-left: 1px solid black;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  margin-right: 85px;
+
+}
+
+.social{
+  margin-top: 20px;
+  border-left: 1px solid black;
+  margin-left: 35px;
+}
+
 
 
 .footer{
-  height: 65px;
+  height: 85px;
   background-color: #eeddcd;
   margin-top: 55px;
 
