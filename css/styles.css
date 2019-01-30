@@ -36,6 +36,8 @@ nav li{
 
 .box{
   background-color: #eeddcd;
+  margin-top: 35px;
+  border-top: 12px solid #eeddcd;
 }
 
 .logo_bottom{
