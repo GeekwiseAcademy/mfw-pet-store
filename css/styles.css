@@ -34,30 +34,26 @@ nav li{
 
 }
 
+.box{
+  background-color: #eeddcd;
+}
+
 .logo_bottom{
 
 }
 
 .doggy{
   border-left: 1px solid black;
-
-
-
-
 }
 
 .social{
-
   border-left: 1px solid black;
-
 }
 
 .icon{
   float: left;
   color: #5c433f;
 }
-
-
 
 .footer{
   height: 100px;
