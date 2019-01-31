@@ -31,8 +31,56 @@ nav li{
   background-size: cover;
   background-position: center;
   height: 450px;
+}
+
+
+
+/* li a, .jumbotron button{
+  border: 1px solid #5c433f;
+  color: #5c433f;
+  font-family: "open Sans", sans-serif;
+  font-weight: 400;
+}
+a:hover{
+  text-decoration: none;
+}
+
+nav{
+  top:20px;
+}
+
+.jumbotron h2{
+  font-family: "open sans", sans-serif;
+  font-weight: 300;
+  color: #fff;
+}
+
+.featured{
+  margin-bottom: 60px;
+}
+
+.product{
+  background-color: #eeddcd;
+  border-radius:5%;
+  borderd: 5px solid rgb (232, 232, 232);
 
 }
+
+.img_box{
+  margin: 10px 0px;
+}
+
+.product button{
+  margin-bottom: 10px;
+  background-color: rgb (252, 252, 252);
+  border: 1px solid #5c43ff;
+}
+ */
+
+
+
+
+
 
 .box{
   background-color: #eeddcd;
@@ -45,12 +93,12 @@ nav li{
 }
 
 .meow{
-  border-left: 5px white solid;
+
   border-right: 5px white solid;
 }
 
 .birdy{
-  border-left: 5px white solid;
+
   margin-top: auto;
 }
 
@@ -58,10 +106,43 @@ nav li{
   background-color: #eeddcd;
 }
 
-.footer{
+.footer {
   height: 100px;
   background-color: #eeddcd;
   margin-top: 55px;
+}
+
+.fine_print{
+  margin-top: 10px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .centered {
+    float: none;
+    margin: 0 auto;
+  }
+
+  nav{
+    padding-top: 0px;
+    padding-bottom: 10px;
+    top: 5px;
+  }
+
+  .social{
+    text-align: center;
+    font-size: 45px;
+  }
+
+  .social i {
+    margin: 20px 10px 0px;
+  }
+
+  aside{
+    margin-bottom: 60px;
+  }
+
 }
 
 
@@ -76,6 +157,9 @@ nav li{
 .social{
   border-left: 1px solid black;
 }
+
+
+
 
 /* need help fixing this */
 /* .icon{
