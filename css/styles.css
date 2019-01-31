@@ -18,3 +18,10 @@ header h1 {
 nav li {
   font-size: 15px;
 }
+
+.jumbotron {
+  background-image: url('../img/hero.jpg');
+  background-size: cover;
+  bckground-position: center;
+  height: 450px;
+}
