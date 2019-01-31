@@ -112,13 +112,14 @@ footer .fine_print {
     padding-bottom: 10px;
     top: 5px;
   }
+
   .social {
     text-align: center;
     font-size: 45px;
   }
 
   .social i {
-    margin: 20px 10px 0px 
+    margin: 20px 10px 0px;
   }
 
   aside {
