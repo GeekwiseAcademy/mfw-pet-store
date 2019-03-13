@@ -27,3 +27,9 @@ header h1 {
     border:5px solid rgb(252,252,252);
 
 }
+
+/* footer start */
+
+.page-footer{
+    background-color: #eeddcd;
+}
