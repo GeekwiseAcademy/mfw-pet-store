@@ -13,13 +13,43 @@ header h1 {
 
 .jumbotron {
     background-image: url('../img/hero.jpg');
+    color: white;
     background-size: cover;
     background-position: center;
-    height: 450px;
+    height: 400px;
 }
 
 .product {
     background-color: #eeddcd;
     border-radius: 5%;
-    border: 5px solid rgb(252, 252, 252);
+    padding: 10px;
+}
+
+footer{
+    height: 100px;
+    background-color: #eeddcd;
+}
+
+/* .toy {
+    margin-right: 1px;
+} */
+
+.aborder{
+    border: 1px solid black;
+}
+
+.line{
+    border-left: 1px solid black
+}
+
+footer{
+    margin-top: 50px;
+}
+.list{
+    list-style-type: none;
+    border-left: thin solid black;
+}
+
+.copy-right{
+    float: left;
 }
