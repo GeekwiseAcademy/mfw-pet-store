@@ -24,27 +24,6 @@ nav li{
     font-size: 15px;
 }
 
-}
-
-.jumbotron{
-    background: url(../img/hero.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 450px;
-    text: rgb(245, 245, 245);
-}
-
-.product{
-    background-color: #eeddcd;
-    border-radius: 5%;
-    border: 5px solid rgb(252, 252, 252);
-    padding:5px;
-}
-
-.nav-stacked {
-    border: 5px;
-    color: brown;
-}
 
 li{
 
