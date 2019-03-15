@@ -1,0 +1,46 @@
+@import url(http://fonts.googleapis.com/css?family=Satisfy|Open+Sans);
+/********** HEADER Section ***********/
+.logo{
+    width: 90px;
+
+}
+
+header h1 {
+    color: #c9c983;
+    font-family: 'Satisfy', cursive;
+    margin-top: 20px;
+}
+
+.nav-pills>li.active>a {
+    color: #5c433f;
+    background-color: #eeddcd;
+}
+
+.nav-pills>li.active>a:hover,
+.product button:hover,
+footer a:hover{
+    background-color: #edf1f4;
+    color: #5c433f;
+}
+
+nav li {
+    font-size: 15px;
+}
+
+
+
+
+
+.jumbotron {
+    background-image: url('../img/hero.jpg');
+    color: white;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+.product {
+    background-color: #eeddcd;
+    border-radius: 5%;
+    padding: 10px;
+}
