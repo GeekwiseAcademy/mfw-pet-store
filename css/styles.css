@@ -11,6 +11,21 @@ header h1 {
     margin-top: 20px;
 
 }
+.nav-pills>li.active>a {
+    color:#5c433f;background-color: #eeddcd;
+}
+.nav-pills>li.active>a:hover,
+.product button:hover,
+footer a:hover {
+color:#5c433f;
+background-color: #edf1f4;
+}
+
+.nav li{
+    font-size: 15px;
+}
+
+}
 /* Header end */
 /* Jumbotron */
 
@@ -20,6 +35,8 @@ header h1 {
     background-position: center;
     height: 450px;
 }
+/* Jumbotron end */
+/* Body */
 
 .product {
     background-color: #eeddcd;
@@ -28,8 +45,15 @@ header h1 {
 
 }
 
+.well{
+    background-color: #eeddcd;
+    border-radius: 5px;
+    border-color: black;
+}
+
+/* Body end */
 /* footer start */
 
-.page-footer{
+footer{
     background-color: #eeddcd;
 }
