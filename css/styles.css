@@ -8,15 +8,54 @@ header h1{
     font-family: 'Satisfy', cursive;
     margin-top: 20px;
 }
+
+.nav-pills>li.active>a{
+    color: #5c433f;
+    background-color: #eeddcd;
+}
+
+.nav-pills>li.active>a:hover,
+.product button:hover,
+footer a:hover {
+    backgroung-color; #edf1f4;
+    color: #5c433f;
+   
+nav li{
+    font-size: 15px;
+}
+
+}
+
 .jumbotron{
-    backgound-image: url('..img/hero.jpg';
+    background: url(../img/hero.jpg);
     background-size: cover;
     background-position: center;
     height: 450px;
+    text: rgb(245, 245, 245);
 }
 
 .product{
     background-color: #eeddcd;
     border-radius: 5%;
     border: 5px solid rgb(252, 252, 252);
+    padding:5px;
+}
+
+.nav-stacked {
+    border: 5px;
+    color: brown;
+}
+
+li{
+
+    background-color: #eeddcd;
+    border-radius: 5%;
+    border: 5px solid rgb(252, 252, 252); border: 5px brown;    
+}
+
+.navbar-fixed-bottom{
+        background-color: grey;
+        font-family: 'Satisfy', cursive;
+        margin-top: 20px; 
+         
 }
