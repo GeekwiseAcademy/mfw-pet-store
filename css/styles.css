@@ -11,6 +11,26 @@ header h1 {
     margin-top: 20px;
 }
 
+.nav-pills>li.active>a {
+    color: #5c433f;
+    background-color: #eeddcd;
+}
+
+.nav-pills>li.active>a:hover,
+.product button:hover,
+footer a:hover{
+    background-color: #edf1f4;
+    color: #5c433f;
+}
+
+nav li {
+    font-size: 15px;
+}
+
+
+
+
+
 .jumbotron {
     background-image: url('../img/hero.jpg');
     color: white;
@@ -25,14 +45,15 @@ header h1 {
     padding: 10px;
 }
 
-footer{
+/* footer{
     height: 100px;
     background-color: #eeddcd;
+    margin-top: 50px;
 }
 
-/* .toy {
+.toy {
     margin-right: 1px;
-} */
+}
 
 .aborder{
     border: 1px solid black;
@@ -42,14 +63,8 @@ footer{
     border-left: 1px solid black
 }
 
-footer{
-    margin-top: 50px;
-}
 .list{
     list-style-type: none;
     border-left: thin solid black;
-}
-
-.copy-right{
-    float: left;
-}
+} 
+ */
