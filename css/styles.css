@@ -9,16 +9,43 @@ header h1{
     margin-top: 20px;
 }
 
+/* .jumbotron{
+    background: url(/img/hero.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+} */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .jumbotron {
+    background: url(../img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    
+  }
+
+  h2{
+    color: rgb(245, 245, 245);
+  }
+
 .nav-pills>li.active>a{
-    color: #5c433f;
+    color: grey;
     background-color: #eeddcd;
 }
 
 .nav-pills>li.active>a:hover,
 .product button:hover,
 footer a:hover {
-    backgroung-color; #edf1f4;
-    color: #5c433f;
+    background-color: #edf1f4;
+    color:  grey;
+}
    
 nav li{
     font-size: 15px;
@@ -29,12 +56,12 @@ li{
 
     background-color: #eeddcd;
     border-radius: 5%;
-    border: 5px solid rgb(252, 252, 252); border: 5px brown;    
+    border: 5px solid rgb(252, 252, 252); 
+    border: 5px brown;    
 }
 
-.navbar-fixed-bottom{
-        background-color: grey;
-        font-family: 'Satisfy', cursive;
-        margin-top: 20px; 
-         
+.footer {
+        height: 100px;
+        background-color: rgb(245, 241, 241);
+                 
 }
