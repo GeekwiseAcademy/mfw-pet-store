@@ -24,5 +24,27 @@ header h1{
 .nav-pills > li.active > a{
     color:#5c433f;
     background-color: #eeddcd;
-
+}
+.col-sm-12{
+    background-color: #eeddcd;
+    margin-left: 10px;
+}
+.img-responsive{
+    margin-top: 20px;
+}
+/* header{
+    background-color: #eeddcd; 
+} */
+.nav{
+   margin-top: 20px; 
+}
+/* .product{
+    margin-left: 5px;
+} */
+.row{
+    margin-left: -10px;
+    margin-right: -10px;
+}
+a.text-uppercase{
+    background-color: #eeddcd;
 }
