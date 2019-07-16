@@ -1,0 +1,19 @@
+@import url(http://fonts.googleapis.com/css?family=Satisfy|Open+Sans:400,300,700);
+
+.logo {
+    width: 75px;
+}
+
+/* Jumbotron Section */
+.jumbotron {
+    background-image: url(../img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+}
+
+.jobotron2 h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight:300;
+    color: #fff;
+}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,10 +9,115 @@
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
 
+<body>
+	<!-- Nav Bar -->
+	<!-- Emmet Code: (.container>header.row>(col-xs-8.col-sm-4.col-md-6.centered>img.pull-left.logo+h1.pull-left.text-center{Pet
+	Store})+(nav.col-xs-12.col-sm-7.col-md-6>ul.nav.nav-pills.pull-right>(li[role="presentation"]>a)*3)) -->
+	<div class="container">
+		<header class="row">
+			<col-xs-8 class="col-sm-4 col-md-6 centered">
+				<img src="img/petstore_logo.png" alt="Pet Store" class="pull-left logo">
+				<h1 class="pull-left text-center">Pet Store</h1>
+			</col-xs-8>
+			<nav class="col-xs-12 col-sm-7 col-md-6">
+				<ul class="nav nav-pills pull-right">
+					<li role="presentation" class="active"><a href="">Home</a></li>
+					<li role="presentation"><a href="#">Products</a></li>
+					<li role="presentation"><a href="#">Contact Us</a></li>
+				</ul>
+			</nav>
+		</header>
+	</div>
+	<!-- End of Nav Bar -->
+
+	<!-- JUMBOTRON -->
+	<!-- (.jumbotron>.container.text-center.text-uppercase>h2{The products they love. The prices you like.})*! -->
+	<div class="jumbotron">
+		<div class="container text-center text-uppercase">
+			<h2>The products they love. The prices you like.</h2>
+		</div>
+	</div>
+	<!-- End of Jumbotron -->
+
+	<!-- Main Section -->
+	<!-- Emmet Code: (section.container>.row>.col-sm-7.text-justify.featured>h2.text-uppercase{Featured}+p{lorem}+.row>(.col-sm-4.product>.row>(.col-sm-12.col-xs-6.img_box>img-responsive+(.col-sm-12.col-xs-6>h4+p{Lorem}+button.btn.bt-xs.center-block{Buy
+	Now!})))*3) -->
+	<section class="container">
+		<div class="row">
+			<div class="col-sm-7 text-justify featured">
+				<h2 class="text-uppercase">Featured</h2>
+				<p>All of our "Featured Products" are hand-picker by our staff to garuntee your pets satisfied!</p>
+				<div class="row">
+					<div class="col-sm-4 product">
+						<div class="row">
+							<div class="col-sm-12 col-xs-6 img_box">
+								<img src="img/product1.jpg" alt="" class="img-responsive">
+								<img-responsive></img-responsive>
+								<div class="col-sm-12 col-xs-6">
+									<h4>Dog Bowl</h4>
+									<p>Lorem</p>
+									<button class="btn bt-xs center-block">BuyNow!</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 product">
+						<div class="row">
+							<div class="col-sm-12 col-xs-6 img_box">
+								<img src="img/product2.jpg" alt="" class="img-responsive">
+								<img-responsive></img-responsive>
+								<div class="col-sm-12 col-xs-6">
+									<h4>Cat Toy</h4>
+									<p>Lorem</p>
+									<button class="btn bt-xs center-block">BuyNow!</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 product">
+						<div class="row">
+							<div class="col-sm-12 col-xs-6 img_box">
+								<img src="img/product3.jpg" alt="" class="img-responsive">
+								<img-responsive></img-responsive>
+								<div class="col-sm-12 col-xs-6">
+									<h4>Parrot Toy</h4>
+									<p>Lorem</p>
+									<button class="btn bt-xs center-block">BuyNow!</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Emmet Code: (aside.col-sm-3.col-sm-offset-2>h2.text-center.text-uppercase{Services}+ul.nav.nav-pills.nav-stacked.text-center>(li[role=presentation]>a.text-uppercase{Adopt a}+p{Lorem})*3) -->
+			<aside class="col-sm-3 col-sm-offset-2">
+				<h2 class="text-center text-uppercase">Services</h2>
+				<ul class="nav nav-pills nav-stacked text-center">
+					<li role="presentation">
+						<a href="" class="text-uppercase">Adopt a</a>
+						<p>Lorem</p>
+					</li>
+					<li role="presentation">
+						<a href="" class="text-uppercase">Adopt a</a>
+						<p>Lorem</p>
+					</li>
+					<li role="presentation">
+						<a href="" class="text-uppercase">Adopt a</a>
+						<p>Lorem</p>
+					</li>
+				</ul>
+			</aside>
+		</div>
+	</section>
+	<!-- End Main Section -->
+
+	<!-- Footer -->
+
+	<!-- End of Footer -->
 	<!-- scripts -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>
