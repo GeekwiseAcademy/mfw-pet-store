@@ -4,6 +4,17 @@
     width: 75px;
 }
 
+header h1 {
+    color: #c9c983;
+    font-family: 'Satisfy', cursive;
+    margin-top: 20px;
+}
+
+.nav-pills > li.active > a {
+    color: #5c433f;
+    background-color: #eeddcd;
+}
+
 /* Jumbotron Section */
 .jumbotron {
     background-image: url(../img/hero.jpg);
@@ -17,3 +28,5 @@
     font-weight:300;
     color: #fff;
 }
+
+
