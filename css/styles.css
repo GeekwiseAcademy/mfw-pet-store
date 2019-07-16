@@ -21,7 +21,7 @@ header h1{
     margin-top: 20px;
 }
 
-.nav-pills > li.active> a{
+.nav-pills > li.active > a{
     color:#5c433f;
     background-color: #eeddcd;
 
