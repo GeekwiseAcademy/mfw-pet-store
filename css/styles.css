@@ -4,15 +4,25 @@
     width: 75px;
 }
 
-header h1 {
+header h1, footer h1 {
     color: #c9c983;
     font-family: 'Satisfy', cursive;
     margin-top: 20px;
 }
 
+/* Pills Section */
+.nav-pills a {
+    border: #e7750b solid 1px;
+}
+.nav-pills {
+    border-radius: 5px;
+    border-color:#e7750b;
+}
 .nav-pills > li.active > a {
     color: #5c433f;
     background-color: #eeddcd;
+    border-width: 2px;
+    border-color: #e7750b;
 }
 
 /* Jumbotron Section */
@@ -21,12 +31,20 @@ header h1 {
     background-size: cover;
     background-position: center;
     height: 450px;
-}
-
-.jobotron2 h2 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight:300;
     color: #fff;
 }
+
+.jumbotron2 > h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #fff;
+}
+
+/* Footer Section */
+footer {
+    background-color: #eeddcd;
+}
+
+
 
 
