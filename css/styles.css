@@ -32,12 +32,18 @@ header h1{
 
 a{
     background-color: white;
+    color: #483732;
 }
 
 li.presentation{
     border: black, solid, 1px;
     background-color: #ffffff;
 }
+
+h4 h2{
+    color: #262626;
+}
+
 
 a.text-uppercase{
     background-color: #eeddcd;
@@ -64,3 +70,6 @@ a.text-uppercase{
     border: black, solid, 1px;
 }
 
+.text-uppercase{
+    color: #483732;
+}
