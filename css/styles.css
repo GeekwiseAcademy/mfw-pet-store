@@ -29,3 +29,38 @@ header h1{
     color: #5c433f;
     background-color: #eeddcd;
 }
+
+a{
+    background-color: white;
+}
+
+li.presentation{
+    border: black, solid, 1px;
+    background-color: #ffffff;
+}
+
+a.text-uppercase{
+    background-color: #eeddcd;
+    /* border: black, solid, 1px; */
+}
+
+.product{
+    background-color: #eeddcd;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    
+}
+
+.col-xs-6{
+    margin-top: 10px;
+}
+
+.btn{
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.btn-xs{
+    border: black, solid, 1px;
+}
+
