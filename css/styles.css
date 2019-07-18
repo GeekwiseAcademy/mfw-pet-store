@@ -33,6 +33,7 @@ header h1{
 a{
     background-color: white;
     color: #483732;
+    border: solid 1px black;
 }
 
 li.presentation{
@@ -54,21 +55,27 @@ a.text-uppercase{
     background-color: #eeddcd;
     margin-top: 20px;
     margin-bottom: 5px;
-    
+    border: 2px solid rgb(252,252,252);
+    border-radius: 5%;
 }
 
 .col-xs-6{
     margin-top: 10px;
 }
 
+button{
+
+}
+
 .btn{
     background-color: white;
     margin-bottom: 10px;
-}
-
-.btn-xs{
     border: black, solid, 1px;
 }
+
+/* .btn-xs{
+    border: black, solid, 1px;
+} */
 
 .text-uppercase{
     color: #483732;
