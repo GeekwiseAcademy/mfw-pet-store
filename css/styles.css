@@ -1,0 +1,190 @@
+@import url(http://fonts.googleapis.com/css?family=Satisfy|Open+Sans:400,300,700);
+
+.logo{
+    width: 90px;
+}
+
+/* Jumbotron section */
+
+.jumbotron{
+    background-image: url('../img/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+}
+
+.jumbotron h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300px;
+    color: white;
+}
+
+/* End of Jumbotron section */
+
+/* Start of main section */
+
+header h1{
+    color: #c9c983;
+    font-family: 'Satisify', 'cursive';
+    margin-top: 20px;
+}
+
+.nav-pills > li.active > a{
+    color: #5c433f;
+    background-color: #eeddcd;
+}
+
+
+li.presentation{
+    border: black, solid, 1px;
+    background-color: #ffffff;
+}
+
+h4 h2{
+    color: #262626;
+}
+
+
+a.text-uppercase{
+    background-color: #eeddcd;
+    /* border: black, solid, 1px; */
+}
+
+.product{
+    background-color: #eeddcd;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border: 3px solid rgb(252,252,252);
+    border-radius: 5%;
+}
+
+.col-xs-6{
+    margin-top: 10px;
+}
+
+
+
+.btn{
+    background-color: white;
+    margin-bottom: 10px;
+    border: black, solid, 1px;
+}
+
+
+.text-uppercase{
+    color: #483732;
+}
+
+/* NAV From Jacque */
+
+.nav-pills > li.active > a:hover, footer a:hover .product button:hover {
+    background-color: #edf1f4;
+    color: #5c433f;
+}
+
+nav li{
+    font-size: 15px;
+}
+
+li a{
+    color: #5c433f;
+    border: 1px solid;
+    font-family: 'Open Sans', "Sans Serif";
+    font-weight: 400px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+nav{
+    top: 15px;
+}
+
+/* End of Nav From Jacque */
+
+/* Start of Jacques Main */
+
+.featured{
+    margin-bottom: 60px;
+}
+
+.product{
+    background-color: #eeddcd;
+    border-radius: 5%;
+    border: 5px solid white;
+}
+
+.img_box{
+    margin: 10px 0px;
+}
+
+.product button{
+    margin-bottom: 10px;
+    background-color: rgb(252,252,252);
+    border: 1px solid #5c433f;
+}
+
+aside a,
+ footer{
+    background-color: #eeddcd;
+}
+
+/* End of Jacques Main */
+
+/* Start of Footer */
+
+footer{
+    padding-top: 20px;
+    max-height: 100%;
+}
+
+footer a{
+    color: #5c433f;
+}
+
+footer img{
+    height: 90px;
+}
+
+.contact_info{
+    padding-left: 40px;
+    border-right: 1px solid #333;
+    border-left: solid 1px #333333;
+}
+
+
+.social, 
+.contact_info{
+    padding-top: 15px;
+}
+
+footer .fine_print{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+@media(max-width: 760px) {
+    .centered{
+        float: none;
+        margin: 0 auto;
+
+    }
+
+    nav{
+        padding-top: 0px;
+        padding-bottom: 10px;
+        top: 5px;
+    }
+
+    .socail{
+        margin: 20px 10px 0px;
+    }
+
+    aside{
+        margin-bottom: 60px;
+    }
+}
+
+/* End of Footer */
