@@ -38,7 +38,28 @@ header h1{
 .nav{
    margin-top: 20px; 
 }
-/* .product{
+.nav-pills>li.active>a:hover,.product button:hover, footer a:hover{
+
+
+}
+
+.li a {
+    color: :#5x433f;
+    border: 1px solid;
+    font-family: 'open-sans', 'sans-serfif'
+    font-weight:400;
+
+}
+
+
+a:hover{
+    text-decoration:none;
+}
+
+nav{
+    top:20px;
+}
+ .product{
     margin-left: 5px;
 } */
 .row{
@@ -47,4 +68,68 @@ header h1{
 }
 a.text-uppercase{
     background-color: #eeddcd;
+}
+.featured{
+    margin-bottom:60px;
+}
+.product{
+    background-color: #eeddcd;
+    border-radius: 5%;
+    border:5px solid rgb(252,252,252);
+}
+img-box{
+    margin: 10px 0px;
+}
+product button{
+    matgin-bottom:10px;
+    background-color:rgb(252,252,252);
+    border: 1px solid #5c433f:
+
+}
+aside a,
+footer{
+    background-color: #eeddcd;
+}
+footer{
+    padding-top: 20px;
+
+}
+
+footer a {
+    color:#5c433f;
+}
+
+footer img{
+height:90px;
+
+}
+.contact-info{
+    padding-top: 15px;
+    padding-left: 40px;
+    border-right: 1px solid#333;
+}
+.social{
+    padding-top: 15px;
+}
+footer .fine_print{
+    margin-top:10px;
+    margin-bottom: 15px;
+    color:#333;
+}
+@media(max-width: 768px){
+    .centered{
+        float: none;
+        margin: 0 auto;
+    }
+    nav{
+        padding-top: 0px;
+        padding-bottom: 10px;
+        top:5px;
+    }
+    .social{
+        margin:20px 10px 0px;
+    }
+    aside{
+        margin-bottom: 60px;
+    }
 }
