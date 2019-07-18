@@ -112,27 +112,51 @@
 	</section>
 	<!-- End Main Section -->
 	<!-- Footer -->
-	<div class="container-fluid">
-		<footer class="row">
-			<div class="col-xs-2">
+	<!-- Emmet Code: (footer>.container-fluid>.row.centered>(.col-xs-6.col-sm-1.col-sm-offset-1>img[src="img/petstore_logo.png"][alt="Pet Store Logo"].logo) -->
+		<footer>
+			<div class="container-fluid">
+				<div class="row centered">
+					<div class="col-xs-6 col-sm-1 col-sm-offset-1"><img src="img/petstore_logo.png" alt="Pet Store Logo" class="logo">
+					</div>
+					<!-- Emmet Code: (.col-xs-6.col-sm-3.col-sm-offset-1.contact_info>(address>(a>{Pet Store}>br{Fresno, California}>br)+(a{info@petstore.com}))) -->
+					<div class="col-xs-6 col-sm-3 col-sm-offset-1 contact_info">
+						<address>
+							<a href="https://goo.gl/maps/TSuMzpFECcCEMwQy7" alt="Pet Store Address 1223 Main St, Fresno, California" target="_blank">
+								Pet Store<br>1223 Main Street </br>Fresno, California<br>
+							</a>
+							<a href="">info@petstore.com</a>
+						</address>
+					</div>
+					<!-- Emmet Code: .col-sm-2.social>(a>(i.fab.fa+span.hidden-xs{Facebook}))*3 -->
+					<div class="col-sm-2 social">
+						<a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i>
+							<span class="hidden-xs"> 
+								Facebook
+							</span>
+							<br class="hidden-xs">
+						</a>
+						<a href="https://www.twitter.com"><i class="fab fa-twitter-square"></i>
+							<span class="hidden-xs"> 
+								Twitter
+							</span>
+							<br class="hidden-xs">
+						</a>
+						<a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i>
+							<span class="hidden-xs"> 
+								LinkedIn
+							</span>
+						</a>
+					</div>
+				</div>
 			</div>
-			<div class="col-xs-2 centered">
-				<h1 class="pull-right text-center">Pet Store</h1>
-				<img src="img/petstore_logo.png" alt="Pet Store" class="pull-right logo">
-			</div>
-			<div class="col-xs-2 pull-left">
-				<p>Petstore</br> Fresno, CA</br>info@petstore.com</p>
-			</div>
-			<div class="col-xs-6 pull-left">
-				<ul class="nav">
-					<li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>	
-					<li><a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter</li>
-					<li><a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</li>
-				</ul>
+			<div class="row">
+				<div class="col-sm-12 fine_print text-center">
+					<p>&copy; Pet Store Inc. All rights reserved.</p>
+				</div>
 			</div>
 		</footer>
-		>
-	</div>
+	<!-- Emmet Code:  -->
+
 	<!-- End of Footer -->
 	<!-- scripts -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
