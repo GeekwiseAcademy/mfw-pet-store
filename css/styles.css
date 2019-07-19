@@ -42,7 +42,6 @@ header h1, footer h1 {
 
 /* Footer Section */
 
-
 .product button:hover, footer a:hover {
     background-color:#edf1f4;    
     color:#5c433f;
@@ -91,6 +90,10 @@ aside a, footer {
 
 footer a {
     color: #5c433f;
+}
+
+footer {
+    background-color: #eeddcd
 }
 
 footer > .logo {
