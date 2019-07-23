@@ -70,7 +70,7 @@ nav {
 .product {
     background-color: #eeddcd;
     border-radius: 5%;
-    border: 5px solid #ffffff;
+    border: #e7750b solid 1px;
 }
 
 .img_box {
@@ -102,12 +102,13 @@ footer > .logo {
 
 .contact_info {
     padding-left: 40px;
-    border-right: 1px solid #333;
-    border-left: 1px solid #333;
+    border-right: 2px solid #333;
+    border-left: 2px solid #333;
 }
 
 .social, .contact_info {
     padding-top: 15px;
+    color: #333;
 }
 footer .fine_print {
     margin-top: 10px;
