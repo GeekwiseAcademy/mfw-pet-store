@@ -1,0 +1,137 @@
+
+/* @import url(http://fonts.googleapis.com/css? family =satisfy|open+sans:400,300,700); */
+.logo{
+    width:90px;
+}
+.jumbotron{
+    background-image: url('../img/hero.jpg');
+    background-size:cover;
+    background-position:center;
+    height: 450px;
+}
+.jumbotron h2 {
+    font-family: 'open sans', sans-serif;
+    font-weight: 300;
+    color: #fff;
+}
+
+header h1{
+    color:#c9c983;
+    font-family:'satisfy',cursive;
+    margin-top: 20px;
+}
+
+.nav-pills,
+ li.active,
+  a{
+    color:#5c433f;
+    background-color: #eeddcd;
+}
+.col-sm-12{
+    background-color: #eeddcd;
+    margin-left: 10px;
+}
+.img-responsive{
+    margin-top: 20px;
+}
+/* header{
+    background-color: #eeddcd; 
+} */
+nav{
+   /* margin-top: 20px;  */
+}
+.nav-pills>li.active>a:hover,.product button:hover, footer a:hover{
+
+
+}
+
+.li a {
+    color: #5c433f;
+    border: 1px solid;
+    font-family: 'open-sans', 'sans-serfif';
+    font-weight:400;
+
+}
+
+
+a:hover{
+    text-decoration:none;
+}
+
+nav{
+    top:20px;
+}
+ .product{
+    margin-left: 5px;
+} */
+.row{
+    margin-left: -10px;
+    margin-right: -10px;
+}
+a.text-uppercase{
+    background-color: #eeddcd;
+}
+.featured{
+    margin-bottom:60px;
+}
+.product{
+    background-color: #eeddcd;
+    border-radius: 5%;
+    border:5px solid rgb(252,252,252);
+}
+img-box{
+    /* margin: 10px 0px; */
+}
+.product button{
+    margin-bottom:10px;
+    background-color:rgb(252,252,252);
+    border: 1px solid #5c433f;
+
+}
+aside a,
+footer{
+    background-color: #eeddcd;
+}
+footer{
+    padding-top: 20px;
+
+}
+
+footer a {
+    color:#5c433f;
+}
+
+footer img{
+height:90px;
+
+}
+.contact-info{
+    padding-top: 15px;
+    /* padding-left: 40px; */
+    border-right: 1px solid#333;
+}
+.social{
+    padding-top: 15px;
+}
+footer .fine_print{
+    margin-top:10px;
+    margin-bottom: 15px;
+    color:#333;
+}
+@media(max-width: 768px){
+    .centered{
+        float: none;
+        margin: 0 auto;
+    }
+    nav{
+        padding-top: 0px;
+        padding-bottom: 10px;
+        top:5px;
+    }
+    .social{
+        margin:20px 10px 0px;
+    }
+    aside{
+        margin-bottom: 60px;
+    }
+}
