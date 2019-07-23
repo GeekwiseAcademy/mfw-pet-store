@@ -21,7 +21,9 @@ header h1{
     margin-top: 20px;
 }
 
-.nav-pills > li.active > a{
+.nav-pills,
+ li.active,
+  a{
     color:#5c433f;
     background-color: #eeddcd;
 }
@@ -35,8 +37,8 @@ header h1{
 /* header{
     background-color: #eeddcd; 
 } */
-.nav{
-   margin-top: 20px; 
+nav{
+   /* margin-top: 20px;  */
 }
 .nav-pills>li.active>a:hover,.product button:hover, footer a:hover{
 
@@ -78,7 +80,7 @@ a.text-uppercase{
     border:5px solid rgb(252,252,252);
 }
 img-box{
-    margin: 10px 0px;
+    /* margin: 10px 0px; */
 }
 product button{
     matgin-bottom:10px;
