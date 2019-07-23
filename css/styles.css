@@ -1,0 +1,129 @@
+.logo {
+  /* height: 75px; */
+  width: 90px;
+}
+
+.nav-pills>li.active>a {
+  color: #5c433f;
+  background-color: #eeddcd;
+}
+
+.nav-pills>li.active>a:hover,
+.product button:hover,
+footer a:hover {
+  background-color: #edf1f4;
+  color: #5c433f;
+}
+
+nav li {
+  font-size: 15px;
+}
+
+li a {
+  border: 1px solid #5c433f;
+  color: #5c433f;
+  font-family: Open Sans;
+  font-weight: 400;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+nav {
+  top: 20px;
+}
+
+.jumbotron {
+  background-image: url('../img/hero.jpg');
+  color: white;
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+}
+
+.jumbotron h2 {
+  font-family: Open Sans;
+  font-weight: 300;
+  color: #fff;
+}
+
+.featured {
+  margin-bottom: 60px;
+}
+
+.product {
+  background-color: #eeddcd;
+  border-radius: 5%;
+  border: 5px solid rgb(252, 252, 252);
+}
+
+.img-box {
+  margin: 10px 0px;
+}
+
+.product button {
+  margin-bottom: 10px;
+  background-color: rgb (252, 252, 252);
+  border: 1px solid #5c433f;
+}
+
+aside a, footer {
+  background-color: #eeddcd;
+}
+
+footer {
+  padding-top: 20px;
+  max-height: 100%;
+}
+
+footer a {
+  color: #5c433f;
+}
+
+footer img {
+  height: 90px;
+}
+
+.contact_info {
+  padding-top: 15px;
+  padding-left: 40px;
+  border-right: 1px solid #333;
+  border-left: 1px solid #333;
+}
+
+.social {
+  padding-top: 15px;
+}
+
+footer .fine-print {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .centered {
+    float: none;
+    margin: 0 auto;
+  }
+
+  nav {
+    padding-top: 0px;
+    padding-bottom: 10px;
+    top: 5px;
+  }
+
+  .social {
+    text-align: center;
+    font-size: 45px;
+  }
+
+  .social i {
+    margin: 20px 10px 0px;
+  }
+
+  aside {
+    margin-bottom: 60px;
+  }
+}
