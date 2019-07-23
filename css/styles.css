@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans|Satisfy:400, 300, 700);
 
 header h1 {
-    color: #c9c983;
+    color: #eeddcd;
     font-family: 'Satisfy' , cursive;
     margin-top: 20px;
 }
@@ -36,7 +36,7 @@ header h1 {
     background-color: #eeddcd;
 }
 
-.col-sm-4 {
+.product-cards {
     background-color: #eeddcd;
     border: 10px soild white;
 }
