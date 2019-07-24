@@ -27,7 +27,6 @@ li a {
     border: 1px solid;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    padding-right: 5px;
 }
 a:hover {
     text-decoration: none;
@@ -109,13 +108,7 @@ footer .fine_print {
         margin-bottom: 60px;
     }
 }
-.vl{
-    /* border-left: 2px solid black; */
-    margin-top: 15px;
-}
-i{
-    padding-right: 5px;
-} 
+
 
 
 
