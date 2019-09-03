@@ -9,15 +9,22 @@ h3 {
     font-size: 2.75em;
 }
 
-.navbar-text {
+.pet-logo {
+    width: 10%;
+    float: left;
+    margin-left: 0;
+}
+
+.navbar-text h3 {
     color: #a19b4f;
-    background-color: #EAE3D0;
-    border: 1px solid #a19b4f; 
+    background-color: white;
+    margin-left: 0;
 }
 
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
-    color: #fff;
-    background-color: #886d5b;
+    color: #a19b4f;
+    background-color: #eeddcd;
+    border: 1px solid #a19b4f;
 }
 
 .nav-pills>li.not-active>a {
@@ -29,10 +36,6 @@ h3 {
 
 .col {
     display: inline;
-}
-
-.pet-logo {
-    width: 10%;
 }
 
 /*  Jumbotron */
@@ -54,34 +57,81 @@ h3 {
 
 /*  Featured & Services */
 
+ h1 {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #38361d;
+} 
+
+.col p {
+    font-size: .75em;
+    color: #38361d;
+    font-weight: bold;
+}
+
 .product-img {
-    width: 80%;
+    width: 100%;
     display: block;
     margin: 0 auto;
+    padding-bottom: 10px;
 }
 
 .feature-container {
-    background-color: white;
+    background-color: #eeddcd;
     padding-top: 10px;
     padding-bottom: 10px;
     border: 5px solid white;
     border-radius: 15px;
+    max-width: 100%;
+    font-weight: bold;
+    color: #38361d;
+}
+
+.feature-container h4 {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.feature-container p {
+    font-size: .58em;
 }
 
 .feature-container .btn {
     border: 1px solid #78743b;
+    background-color: white;
+    font-size: .55em;
+    font-weight: bold;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    text-align: center;
+}
+
+
+
+.services-containers {
+    text-align: center;
+    font-size: .65em;
+    color: #38361d;
+    font-weight: 500;
 }
 
 .services-containers .btn {
     border: 1px solid #78743b;
-    background-color: #eae3d0;
+    background-color: #eeddcd;
+    font-size: .8em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #38361d;
     /* border-radius: 15px; */
 }
 
 /* Footer */
 
 .footer {
-    background-color: #eae3d0;
+    background-color: #eeddcd;
     margin-top: 50px;
     height: 10em;
     padding-top: 3em;
