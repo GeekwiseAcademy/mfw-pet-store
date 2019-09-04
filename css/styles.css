@@ -1,0 +1,94 @@
+h3{
+    font-family: 'Lobster Two',
+    cursive;
+    font-weight: 700;
+    font-size: 2.75em;
+}
+
+.navbar-text{
+    color: #A19B4F;
+}
+
+.col{
+    display: inline;
+}
+
+.pet-logo{
+    width: 10%;
+}
+
+.nav-pills li.active a, .nav-pills li.active a:focus, .nav-pills li.active a:hover{
+    background-color: #EAE3D0;
+    color: #A19B4F;
+    border: 1px solid #a19b4f;
+}
+.nav-pills li.not-active a, .nav-pills li.not-active a:focus, .nav-pills li.not-active a:hover{
+    background-color: white;
+    color: #A19B4F;
+    border: 1px solid #a19b4f;
+}
+
+.jumbotron{
+    background-image: url(/img/hero.jpg);
+    background-size: cover;
+    height: 33em;
+}
+
+.jumbo-text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    font-style: 1.75em;
+    text-transform: uppercase;
+}
+
+.product-img{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+.feature-container{
+    background-color: #EAE3D0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 5px solid white;
+     border-radius: 15px;
+}
+
+.btn{
+    color: #A19B4F;
+}
+
+.feature-container .btn{
+    border: 1px solid #78743b;
+}
+
+.services-containers .btn{
+    border: 1px solid #78743b;
+    background-color: #EAE3D0;
+}
+
+.footer{
+    background-color: #eae3d0;
+    margin-top: 50px;
+    height: 10em;
+    padding-top: 3em;
+}
+
+.footer .pet-logo{
+    width: 25%
+}
+
+.social-media{
+    margin: 0 auto;
+}
+
+h4{
+    display: inline;
+}
+
+.fa-twitter-square{
+    margin: 0 auto;
+}
