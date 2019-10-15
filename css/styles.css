@@ -1,0 +1,112 @@
+@import url('http://fonts.googleapis.com/css?family=Satisfy%7COpen+Sans');
+
+.logo {
+    width: 90px;
+}
+
+header h1 {
+    color:#c9c983;
+    font-family: 'Satisfy', sans-serif;
+    margin-top: 20px;
+}
+
+.nav-pills > li.active > a {
+    color: #5c433f;
+    background-color: #eeddcd;
+}
+
+.nav-pills > li.active > a:hover, .product button:hover, footer a:hover {
+    background-color: #edf1f4;
+    color:#5c433f;
+}
+
+nav li {
+    font-size: 15px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+nav {
+    top: 20px;
+}
+
+.jumbotron {
+    background-image: url('../img/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+}
+
+.jumbotron h2 {
+    font-family: 'Open Sans', sans-serif ;
+    font-weight: 300;
+    color: #fff;
+}
+.featured {
+    margin-bottom: 60px;
+}
+.product {
+    background-color: #EBDDD0;
+    padding: 15px;
+    border-radius: 5%;
+    border: 5px solid white;
+}
+.product button {
+    margin-bottom: 10px;
+    background-color: rgb(252, 252,252);
+    border: 1px solid #5c433f;
+}
+.center-block {
+    background-color: #fff;
+}
+.container-fluid {
+    background-color: #EBDDD0;
+    height: 110px;
+}
+.info {
+    text-decoration: none;
+    list-style-type: none;
+    border-left: 1px solid black;
+}
+.pet-info {
+    padding: 20px;
+}
+.all-right {
+    background-color: #EBDDD0;
+}
+.footer {
+    padding-top: 20px ;
+    max-height: 100%;
+}
+.footer img {
+    height: 90px;
+}
+ul a {
+    background-color: #EBDDD0;
+}
+.contact_info {
+        padding-top: 15px;
+        padding-left: 40px;
+        border-right: 1px solid #333;
+        border-left: 1px solid #333;
+}
+.social {
+    padding-top: 15px;
+
+}
+footer .fine_print {
+    color: #333;
+}
+.content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.table {
+    margin-top: 20px;
+}
+nav li {
+    padding: 0em 1em;
+}
+
