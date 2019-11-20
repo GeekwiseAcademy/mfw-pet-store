@@ -23,3 +23,16 @@ header h1 {
     margin-top: 20px;
 }
 
+.nav-pills > li.active > a {
+    color: #5C433F;
+    background-color: #EEDDCD;
+}
+
+.nav-pills > li.active > a:hover, product button:hover {
+    background-color: #EDF1F4;
+    color: #5C433F;
+}
+
+nav li {
+    font-size: 15px;
+}
