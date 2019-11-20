@@ -1,0 +1,25 @@
+/* 
+TODO:
+[] - Get google fonts for satisfy and Open Sans
+
+*KEY* 
+Primary Color: #C9C983
+Primary Heading Font: 'Satisfy', open-sans
+Base Color: #EEDDCD
+*/
+
+/*              IMPORTS                      */
+
+@import url(http://fonts.googleapis.com/css?family=Satisfy|Open+Sans:400,300,700);
+
+/*                 NAVBAR SECTION                  */
+.logo {
+    width: 90px;
+}
+
+header h1 {
+    color: #C9C893;
+    font-family: 'satisfy', open-sans;
+    margin-top: 20px;
+}
+
