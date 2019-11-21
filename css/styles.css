@@ -43,8 +43,8 @@ nav {
 
 .jumbotron {
     background-image: url(../img/hero.jpg);
-    height: 400px;;
-
+    background-size: cover;
+    height: 600px;
 }
 
  .jumbo-text {
