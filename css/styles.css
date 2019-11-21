@@ -36,3 +36,44 @@ header h1 {
 nav li {
     font-size: 15px;
 }
+
+nav {
+    margin-top: 15px;
+}
+
+.jumbotron {
+    background-image: url(../img/hero.jpg);
+    height: auto;
+
+}
+
+ .jumbo-text {
+    color:white;
+    opacity: 80%;
+}
+
+.product {
+    background-color: #EEDDCD;
+    border-radius: 2%;
+    margin-right: 0px;
+}
+
+a {
+    background-color: #EEDDCD;
+    border: 2px solid #EEDDCD;
+}
+
+footer {
+    margin-top: 80px;
+    background-color: #EEDDCD;
+    height: 110px;
+}
+
+footer div {
+    margin-top: 15px;
+    border-right: 1px solid black;
+}
+
+footer li {
+    list-style-type: none;
+}
