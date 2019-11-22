@@ -24,4 +24,22 @@ header h1 {
     margin-top: 20px;
 }
 
+.nav-pills > li.active > a {
+    color: #5C433F;
+    background-color: #EEDDCD;
+
+
+}
+
+..nav-pills > li.active > a:hover,.product button: hover, footer a:hover {
+    background-color: #EDF1F4;
+    color: #5C433F;
+
+}
+
+
+
+
+
+
 @import url(http://fonts.googleapis.com/css?family=Satisfy|Open+Sans:400,300,700);
