@@ -38,6 +38,114 @@ header h1 {
 }
 
 
+nav {
+    top: 20px;
+}
+
+
+
+
+.jumbotron {
+    background-image: url('../img/alt-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+
+}
+
+.jumbotron h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #fff;
+}
+
+
+/* Featured Section */
+
+.featured {
+    margin-bottom: 60px;
+}
+
+.product {
+    background-color: #eeddcd;
+    border-radius: 5%;
+    border: 5px solid rgb(252,252,252);
+}
+
+.img_box {
+    margin: 10px 0;
+
+}
+
+.product button {
+    margin-bottom: 10px;
+    background-color: rgb(252,252,252);
+    border: 1px solid #5c433f;
+}
+
+
+/* Service Section */
+
+
+.product, aside a {
+
+    background-color: #eeddcd;
+}
+
+.aside a {
+
+}
+
+
+.footer {
+    /* background-color: #eeddcd; */
+    padding-top: 20px;
+    max-height: 100%;
+}
+
+.footer a {
+    color: #5C433F;
+}
+
+.footer img {
+    height: 90px;
+}
+
+.contact_info {
+    padding: 15px 0 0 40px;
+    border-right: 1px solid #333;
+    border-left: 1px solid #333;
+}
+
+
+.social {
+    padding-top: 15px;
+    margin: 10px 0 15px 0;
+    color: #333;
+}
+
+@media(max-width: 768px) {
+    -centered
+    ~
+    -nav
+    -social
+    -aside
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
