@@ -48,19 +48,33 @@ nav {
 }
 
  .jumbo-text {
+     font-family: 'Open Sans', sans-serif;
     color:white;
     opacity: 80%;
+    font-weight: 300;
 }
 
 .product {
     background-color: #EEDDCD;
-    border-radius: 2%;
-    margin-right: 0px;
+    border-radius: 6%;
+    margin-right: px;
+    border: 5px solid white;
 }
 
-a {
+.img_box {
+    margin: 10px 0;
+}
+
+.product button {
+    margin-bottom: 10px;
+}
+aside a {
     background-color: #EEDDCD;
     border: 2px solid #EEDDCD;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 footer {
@@ -72,8 +86,12 @@ footer {
 footer div {
     margin-top: 15px;
     border-right: 1px solid black;
-}
+} 
 
 footer li {
     list-style-type: none;
+}
+
+footer p {
+    margin-top: 60px;
 }
