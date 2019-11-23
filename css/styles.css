@@ -48,14 +48,13 @@ nav {
 }
 
  .jumbo-text {
-     font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color:white;
     opacity: 80%;
     font-weight: 300;
 }
 
 .product {
-    background-color: #EEDDCD;
     border-radius: 6%;
     margin-right: px;
     border: 5px solid white;
@@ -69,7 +68,6 @@ nav {
     margin-bottom: 10px;
 }
 aside a {
-    background-color: #EEDDCD;
     border: 2px solid #EEDDCD;
 }
 
@@ -79,7 +77,6 @@ a:hover {
 
 footer {
     margin-top: 80px;
-    background-color: #EEDDCD;
     height: 110px;
 }
 
@@ -94,4 +91,8 @@ footer li {
 
 footer p {
     margin-top: 60px;
+}
+
+.product, aside a, footer {
+    background-color: #EEDDCD;
 }
