@@ -25,8 +25,12 @@ header h1 {
 
 .nav-pills > li.active > a {
     color: #5C433F;
+}
+
+.nav-pills > li.active > a, .product, aside a, footer {
     background-color: #EEDDCD;
 }
+
 
 .nav-pills > li.active > a:hover, product button:hover {
     background-color: #EDF1F4;
@@ -37,7 +41,7 @@ nav li {
     font-size: 15px;
 }
 
-nav {
+nav, footer div {
     margin-top: 15px;
 }
 
@@ -56,7 +60,6 @@ nav {
 
 .product {
     border-radius: 6%;
-    margin-right: px;
     border: 5px solid white;
 }
 
@@ -81,7 +84,6 @@ footer {
 }
 
 footer div {
-    margin-top: 15px;
     border-right: 1px solid black;
 } 
 
@@ -91,8 +93,4 @@ footer li {
 
 footer p {
     margin-top: 60px;
-}
-
-.product, aside a, footer {
-    background-color: #EEDDCD;
 }
