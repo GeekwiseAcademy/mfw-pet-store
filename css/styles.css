@@ -1,3 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Lato&display=swap');
+/* font-family: 'Dancing Script', cursive;
+font-family: 'Lato', sans-serif; */
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.logo {
+    height: 7vh;
+}
+
+a {
+    color: black;
+}
+
+.title {
+    font-family: 'Dancing Script', cursive;
+    color: #D2D298;
+}
+
+li > a {
+    border: solid black 1px;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    background-color: #EEDDCD;
+    color: black;
+}
+
+.head_nav {
+    margin-top: 20px;
+}
+
 .jumbotron {
     background: url(../img/hero.jpg) center center no-repeat;
     background-size: cover;
@@ -5,6 +39,23 @@
     color: white;
 }
 
-.adopt {
-    width: 100%;
+.featured {
+    margin-bottom: 10px;
+}
+
+.img_box {
+    margin-top: 10px;
+}
+
+li[role="presentation"] > a{
+    background-color: #EEDDCD;
+}
+
+.product {
+    background-color: #EEDDCD;
+    /* margin: 0px 1px; */
+}
+
+footer {
+   background-color: #EEDDCD;;
 }
