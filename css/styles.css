@@ -1,0 +1,10 @@
+.jumbotron {
+    background: url(../img/hero.jpg) center center no-repeat;
+    background-size: cover;
+    height: 70vh;
+    color: white;
+}
+
+.adopt {
+    width: 100%;
+}
