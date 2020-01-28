@@ -1,0 +1,15 @@
+.logo {
+    height: 3.75em;
+}
+.jumbotron {
+    background-image: url(../img/hero.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    height : 400px;
+}
+.text-warning {
+    color: #FFF;
+}
+.well {
+    background-color: #a9a
+}
