@@ -9,7 +9,113 @@
 	<link rel="stylesheet" href="css/all.min.css">
 </head>
 <body>
+	<!--navbar section-->
+	<!-- 	.container>(.row>(.col-xs-8.col-sm-4.col-md-6.centered>img.pul-left.logo[src="img/petstore_logo.png"][alt="pet store logo"]+h1.pull-left.text-center{pet store}))-->
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-8 col-sm-4 col-md-6 centered">
+				<img src="img/petstore_logo.png" alt="pet store logo" class="pul-left logo">
+				<h1 class="pull-left text-center">pet store</h1>
+			</div>
+	<!-- 		nav.col-xs-12.col-sm-7.col-md-6>(ul.nav.nav-pills.pull-right>(li>a)*3)*1-->
+		<nav class="col-xs-12 col-sm-7 col-md-6">
+				<ul class="nav nav-pills pull-right">
+					<li class="active"><a href="index.html">Home</a></li>
+					<li><a href="#">Products</a></li>
+					<li><a href="contact.html">contacts</a></li>
+				</ul>
+			</nav>
+		</div>
 
+	</div>
+	<!--end of nav bar-->
+
+	<!-- jumbotron/hero section -->
+      <div class="jumbotron">
+		  <div class="container text-center text-uppercase">
+			  <h2>The products they love. prices you like.</h2>
+		  </div>
+	  </div>
+	<!-- end of jumbotron -->
+	<!-- the feature/aside section -->
+	<!-- 	section.container>.row -->
+
+	<!-- .col-sm-7.text-justify.featured>(h2.text-uppercase{featured}+p{lorem15}+(.row>(col-sm-4.product>.row>(.col-sm-12.col-xs-6.img_box>img.img-responsive[src="img/product$.jpg"][alt=""])+(.col-sm-12.col-xs-6>h4{toy}+p{lorem10}+button.btn.btn-xs.center-block{Purchase Now}))*3)) -->
+	<div class="section container">
+		<div class="row">
+	<div class="col-sm-7 text-justify featured">
+		<h2 class="text-uppercase">featured</h2>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et veritatis nemo placeat provident exercitationem praesentium.</p>
+		<div class="row">
+			<div class="col-sm-4 product">
+				<div class="row">
+					<div class="col-sm-12 col-xs-6 img_box"><img src="img/product1.jpg" alt="dog bowl" class="img-responsive"></div>
+					<div class="col-sm-12 col-xs-6">
+						<h4>toy</h4>
+						<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, provident.</p>
+						<button class="btn btn-xs center-block">Purchase Now</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4 product">
+				<div class="row">
+					<div class="col-sm-12 col-xs-6 img_box"><img src="img/product2.jpg" alt="toy" class="img-responsive"></div>
+					<div class="col-sm-12 col-xs-6">
+						<h4>toy</h4>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, beatae.</p>
+						<button class="btn btn-xs center-block">Purchase Now</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4 product">
+				<div class="row">
+					<div class="col-sm-12 col-xs-6 img_box"><img src="img/product3.jpg" alt="toy" class="img-responsive"></div>
+					<div class="col-sm-12 col-xs-6">
+						<h4>toy</h4>
+						<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, officiis?</p>
+						<button class="btn btn-xs center-block">Purchase Now</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	<aside class="col-sm-3 col-sm-offset-2">
+		<h2 class="text-center text-uppercase">Services</h2>
+		<ul class="nav nav-pills nav-stacked text-center">
+			<li rule="presentation">
+				<a href="" class="text-uppercase">Adopt A Dog </a>
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+			</li>
+			<li rule="presentation">
+				<a href="" class="text-uppercase">Adopt A Cat </a>
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+			</li>
+			<li rule="presentation">
+				<a href="" class="text-uppercase">Adopt A Fish </a>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+			</li>
+		</ul>
+	</aside>
+		</div>
+</section>
+	<!-- end of feature sect -->
+
+	<!-- footer -->
+	<footer class="container-fluid">
+		<div class="row centered">
+			<div class="col-xs-6 col-sm-1 col-sm-offset-1"><img src="img/petstore_logo.png" alt="pet store logo" class="logo"></div>
+			<div class="col-xs-6 col-sm-3 col-sm-offset-1 contact_info">
+				<address><a href="#">Pet Store<br>Fresno, Ca</a><a href="">info.petstre.com</a></address>
+			</div>
+			<div class="col-sm-2 social">
+				<a href="#"><i class="fab fa-"></i><span class="hidden-xs"></span></a>
+				<a href="#"><i class="fab fa-"></i><span class="hidden-xs"></span></a>
+				<a href="#"><i class="fab fa-"></i><span class="hidden-xs"></span></a>
+			</div>
+		</div>
+	</footer>
+	<!-- end of footer -->
 	<!-- scripts -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
