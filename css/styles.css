@@ -39,7 +39,8 @@ nav {
     height: 200px;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center;
+    background-position: bottom;
+    background-size: cover;
     color: white;
 }
 
@@ -49,6 +50,10 @@ nav {
 
 .col-xs-6 {
     background-color: bisque;
+}
+
+.btn {
+    border: 1px solid rosybrown;
 }
 
 .adopt {
