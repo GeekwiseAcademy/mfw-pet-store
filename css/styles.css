@@ -7,9 +7,25 @@
     background-repeat:no-repeat;
     height : 400px;
 }
+.adopt {
+    border: 2px solid #624a46;
+}
 .text-warning {
     color: #FFF;
 }
+.brown {
+    color: #624a46;
+}
 .well {
-    background-color: #a9a
+    background-color: #ede;
+}
+footer {
+    background-color:#ede;
+}
+.contact_info {
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+}
+.social {
+    font-size: .75em;
 }
