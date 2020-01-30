@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+
+a:link {
+    color: rosybrown;
+}
+
+a:visited {
+    color: rosybrown;
+}
+
+a:hover {
+    color: rosybrown;
+}
+
+.logo {
+    height: 50px;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+    color: yellowgreen;
+}
+
+nav {
+    margin-top: 5px;
+    
+}
+
+.homebtn {
+    background-color: bisque;
+}
+
+.navbtn {
+    border: 1px solid rosybrown;
+}
+.jumbotron {
+    background-image: url("../img/hero.jpg");
+    height: 200px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: cover;
+    color: white;
+}
+
+.col-sm-4 {
+    border-right: 5px solid white;
+}
+
+.col-xs-6 {
+    background-color: bisque;
+}
+
+.btn {
+    border: 1px solid rosybrown;
+}
+
+.adopt {
+    background-color: bisque;
+    border: 1px solid rosybrown;
+}
+
+footer {
+    background-color: bisque;
+    height: 150px;
+    font: black;
+}
+
+.vl {
+    border-left: 1px solid rosybrown;
+    height: 100px;
+    margin-top: 20px;
+  }
