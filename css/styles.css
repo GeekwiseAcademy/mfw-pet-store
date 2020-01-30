@@ -74,7 +74,8 @@ footer a {
 .contact_info {
     padding-top: 15px;
     padding-left: 40px;
-    border: 0 1px 0 1px solid #333;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
 }
 .social{
     padding-top: 15px;
