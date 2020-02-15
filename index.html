@@ -3,14 +3,17 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Pet Store</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/all.min.css">
 	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/contact.css">
 </head>
 <body>
 	<!--NAVBAR SECTION-->
-
+    <!--.container>(.row>(.col-xs-8.col-sm-4.col-md-6.centered>img.pull-left.logo[src="img/petstore_logo.png"][alt="Pet Store logo"]+h1.pull-left.text-center{Pet Store}))*1 
+	--> 
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-8 col-sm-4 col-md-6 centered">
@@ -23,12 +26,11 @@
 					<li><a href="">Product</a></li>
 					<li><a href="contact.html">Contact</a></li>
 				</ul>
-			</nav>
-
-		</div>
+		</header>
 	</div>
 	<!--END OF NAVBAR SECTION -->
 	<!-- JUMBOTRON/HERO SECTION -->
+	<!-- .jumbotron>(.container.text-center.text-uppercase>h2{The products they love. Prices that you like.})*1 -->
 	<div class="jumbotron">
 		<div class="conatiner text-center text-uppercase">
 			<h2>The Products They Love.  PRices You like.</h2>
@@ -36,9 +38,12 @@
 	</div>
 	<!-- END OF JUMBOTRON/HEO SECTION -->
 	<!-- FEATURE/ASIDE SECTION -->
+	<!-- section.container>.row -->
 <section class="container">
 	<div class=row>
 		<!-- FEATRURE -->
+		<!-- .col-sm-7.text-justify.featured>(h2.text-uppercase{Featured}+p{lorem15}+(.row>(.col-sm-4.product>.row>(.col-sm-12.col-xs-6.img_box>img.img-responsive[src="img/product$.jpg"][alt=""])+(.col-sm-12.col-xs-6>h4{Toy}+p{lorem10}+button.btn.btn-xs.center-block{Purchase
+			Now}))*3))*1 -->
 		<div class="col-sm-7 text-justify featured">
 			<h2 class="text-uppercase">Featured</h2>
 			<p>lorem15</p>
@@ -78,6 +83,7 @@
 	
 		<!-- FEATURE ENDS -->
 		<!-- ASIDE -->
+		<!-- aside.col-sm-3.col-sm-offset-2>h2.text-center.text-uppercase{Services}+(ul.nav.nav-pills.nav-stacked.text-center>(li[role="presentation"]>a.text-uppercase{Adopt A }+p{lorem8})*3) -->
 		<aside class="col-sm-3 col-sm-offset-2">
 			<h2 class="text-center text-uppercase">Services</h2>
 			<ul class="nav-pills nav-stacked text-center">
@@ -98,7 +104,9 @@
 		<!-- ASIDE ENDS -->
 	</div>
 </section>	
+<!-- FEATURE/ASIDE DECTION ENDS -->
 <!-- FOOTER SECTION -->
+<!-- footer.container-fluid>.row.centered>(.col-xs-6.col-sm-1.col-sm-offset-1>img.logo[src="img/petstore_logo.png"][alt="Pet Store's logo"])+(.col-xs-6.col-sm-3.col-sm-offset-1.contact_info>(address>(a[href="#"]{Pet Store}>br>{Fresno, Ca})+a{info@petstore.com}))+(.col-sm-2.social>(a[href=#]>i.fab.fa-+span.hidden-xs)*3)*1 -->
 <footer class="container-fluid">
 	<div class="row centered">
 		<div class="col-xs-6 col-sm-1 col-sm-offset-1"><img src="img/petstore_logo.png" alt="Pet Store's Logo" class="logo"></div>
@@ -111,12 +119,14 @@
 			<a href="#"><i class="fab fa-"></i><span class="hidden-xs"></span></a>
 		</div>
 	</div>
+	<!-- .row>.col-sm-12.fine_print.text-center>p{&copy;Pet Store, Inc. All rights reserved.} -->
+	<div class="row">
+		<div class="col-sm-12 fine_print text-center">
+			<p>&copy;Pet Store, Inc. All rights reserved.</p>
+		</div>
+	</div>
 </footer>
-		
-
-	
-
-	<!--  -->
+	<!--END OF FOOTER -->
 	<!-- scripts -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
